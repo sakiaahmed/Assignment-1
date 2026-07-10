@@ -236,3 +236,61 @@ nav {
     color: white;
     border: none;
 }
+
+.career-section {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 25px;
+}
+
+.career-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.career-fair {
+    background-color: rgb(15, 27, 61);
+    border-radius: 15px;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.career-content {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.career-content h3 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.career-content p {
+    color: rgba(255,255,255,0.75);
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+.career-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding: 35px 0;
+    margin-bottom: 40px;
+}
+
+.career-box h4 {
+    color: rgb(96, 130, 255);
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.career-box p {
+    color: rgba(255,255,255,0.7);
+    font-size: 13px;
+    margin: 0;
+}
