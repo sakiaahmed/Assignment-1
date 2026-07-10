@@ -81,7 +81,59 @@ nav {
 }
 
 .hero-text p {
-    color: rgb(220, 220, 220);
+    color: white;
     font-size: 15px;
     margin-bottom: 30px;
+}
+
+.speakerssection {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 25px;
+    text-align: center;
+}
+
+.speakerssection h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.speakergrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: left;
+}
+
+.speakercard {
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.speakercard img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.speakerinfo {
+    padding: 20px;
+}
+
+.tags {
+    color: rgb(47, 93, 245);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.speakerinfo h3 {
+    font-size: 18px;
+    margin: 8px 0 4px;
+}
+
+.speakerinfo p {
+    color: gray;
+    font-size: 13px;
 }
