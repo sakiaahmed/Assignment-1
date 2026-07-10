@@ -123,7 +123,7 @@ nav {
 }
 
 .tags {
-    color: rgb(47, 93, 245);
+    color: gray;
     font-size: 12px;
     font-weight: bold;
 }
@@ -293,4 +293,46 @@ nav {
     color: rgba(255,255,255,0.7);
     font-size: 13px;
     margin: 0;
+}
+
+.footer {
+    background-color: rgb(15, 27, 61);
+    padding: 25px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.copyright,
+.footer-links li {
+    color: white;
 }
