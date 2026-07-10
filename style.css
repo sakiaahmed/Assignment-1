@@ -137,3 +137,102 @@ nav {
     color: gray;
     font-size: 13px;
 }
+
+.plans {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 25px;
+    text-align: center;
+}
+
+.plans h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    text-align: left;
+}
+
+.plan-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.package-name {
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+}
+
+.amount {
+    font-size: 36px;
+    margin: 8px 0 2px;
+}
+
+.duration {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.plan-card hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+}
+
+.benefits {
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+.benefits li {
+    font-size: 13px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.plan-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.premium-card {
+    background-color: rgb(15, 27, 61);
+    color: white;
+    border-color: rgb(15, 27, 61);
+}
+
+.premium-card .package-name.premium-card .duration {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.premium-card hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.premium-card .benefits li {
+    color: white;
+}
+
+.plan-button-filled {
+    background-color: rgb(47, 93, 245);
+    color: white;
+    border: none;
+}
